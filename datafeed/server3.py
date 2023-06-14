@@ -219,8 +219,7 @@ def get(req_handler, routes):
 
 
 def run(routes, host='0.0.0.0', port=8080):
-    """ Runs a class as a server whose methods have been decorated with
-        @route.
+    """ Runs a class as a server whose methods have been decorated w @route.
     """
 
     class RequestHandler(http.server.BaseHTTPRequestHandler):
